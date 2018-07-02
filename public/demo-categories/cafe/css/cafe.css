@@ -1,0 +1,26 @@
+/*
+
+Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file contains the styling for the Cafe Template. You can edit/add anything in this file!
+
+*/
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Alegreya', serif; font-weight: normal;  margin-top: 0px; text-transform: capitalize;  }
+ 
+.cafe-counter .counter .timer { font-size: 26px; }
+.cafe-counter .counter span { font-size: 22px; }
+.bg-top-before, .bg-bottom-before { position: relative; }
+.bg-top-before:before { background-image: url(../../../demo-categories/cafe/images/bg-02.png); top: 0; background-repeat: no-repeat;  content: ""; position: absolute; height: 110px; width: 100%; }
+.bg-bottom-before:before { background-image: url(../../../demo-categories/cafe/images/bg.png); bottom: 0; background-repeat: no-repeat;  content: ""; position: absolute; height: 110px; width: 100%; }
+.cafe-box { margin: 100px 0; background: #ffffff url(../../../demo-categories/cafe/images/cup-stain.png); padding: 50px; border-radius: 3px; box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1); background-size: contain; background-repeat: no-repeat; background-position: bottom left; }
+
+.opening-time ul li { font-size: 20px; line-height: 40px; color: #363636; border-bottom: 2px dashed #ba893f; padding-bottom: 20px; margin-bottom: 20px; }
+.opening-time ul li:last-child { border-bottom: 2px dashed #ba893f; }
+
+.bg-overlay-theme-20:before {  background: rgba(186, 137, 63, 0.2); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+.bg-overlay-theme-50:before {  background: rgba(186, 137, 63, 0.5); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+.bg-overlay-theme-70:before {  background: rgba(186, 137, 63, 0.7); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+.bg-overlay-theme-90:before {  background: rgba(186, 137, 63, 0.9); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
